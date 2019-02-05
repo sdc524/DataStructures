@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F61AF15D21FF5DFB008547B6 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F61AF15B21FF5DFB008547B6 /* Controller.cpp */; };
 		F61AF15F21FF5EBD008547B6 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F61AF15E21FF5EBC008547B6 /* Runner.cpp */; };
+		F6F220B92209DC8F0014A8A9 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F220B82209DC8F0014A8A9 /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F64E8C692201F294000C29D7 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		F64E8C6A2201F941000C29D7 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		F64E8C6C2202058E000C29D7 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		F6F220B72209DC630014A8A9 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		F6F220B82209DC8F0014A8A9 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		F61AF14F21FF5DAC008547B6 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				F6F220B62209DC190014A8A9 /* Tools */,
 				F61AF15721FF5DBC008547B6 /* Model */,
 				F61AF15821FF5DC5008547B6 /* Controller */,
 				F61AF15A21FF5DD5008547B6 /* Diagrams */,
@@ -121,6 +125,15 @@
 			path = Structures;
 			sourceTree = "<group>";
 		};
+		F6F220B62209DC190014A8A9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F6F220B72209DC630014A8A9 /* Timer.hpp */,
+				F6F220B82209DC8F0014A8A9 /* Timer.cpp */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F220B92209DC8F0014A8A9 /* Timer.cpp in Sources */,
 				F61AF15D21FF5DFB008547B6 /* Controller.cpp in Sources */,
 				F61AF15F21FF5EBD008547B6 /* Runner.cpp in Sources */,
 			);
