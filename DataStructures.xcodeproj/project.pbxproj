@@ -41,6 +41,7 @@
 		F62C8625220C847B00C46583 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		F62C8626220C847B00C46583 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		F62C8628220C84FD00C46583 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		F62C8629220C97B000C46583 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		F64E8C692201F294000C29D7 /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		F64E8C6A2201F941000C29D7 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		F64E8C6C2202058E000C29D7 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
@@ -90,7 +91,7 @@
 		F61AF15721FF5DBC008547B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F64E8C6B22020498000C29D7 /* Structures */,
+				F64E8C6B22020498000C29D7 /* Linear */,
 				F64E8C682201F262000C29D7 /* Nodes */,
 			);
 			path = Model;
@@ -137,13 +138,14 @@
 			path = Nodes;
 			sourceTree = "<group>";
 		};
-		F64E8C6B22020498000C29D7 /* Structures */ = {
+		F64E8C6B22020498000C29D7 /* Linear */ = {
 			isa = PBXGroup;
 			children = (
 				F64E8C6C2202058E000C29D7 /* Array.hpp */,
 				F62C8628220C84FD00C46583 /* List.hpp */,
+				F62C8629220C97B000C46583 /* LinkedList.hpp */,
 			);
-			path = Structures;
+			path = Linear;
 			sourceTree = "<group>";
 		};
 		F6F220B62209DC190014A8A9 /* Tools */ = {
