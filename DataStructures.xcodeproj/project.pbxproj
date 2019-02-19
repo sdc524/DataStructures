@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61A8F3922147EAB008FF979 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F61A8F3722147EAB008FF979 /* LinearTester.cpp */; };
 		F61AF15D21FF5DFB008547B6 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F61AF15B21FF5DFB008547B6 /* Controller.cpp */; };
 		F61AF15F21FF5EBD008547B6 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F61AF15E21FF5EBC008547B6 /* Runner.cpp */; };
 		F62C8620220C839600C46583 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62C861F220C839600C46583 /* CrimeData.cpp */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F61A8F3722147EAB008FF979 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
+		F61A8F3822147EAB008FF979 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		F61AF14D21FF5DAC008547B6 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61AF15B21FF5DFB008547B6 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		F61AF15C21FF5DFB008547B6 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -62,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F61A8F3622147E98008FF979 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				F61A8F3722147EAB008FF979 /* LinearTester.cpp */,
+				F61A8F3822147EAB008FF979 /* LinearTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		F61AF14421FF5DAC008547B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		F61AF14F21FF5DAC008547B6 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				F61A8F3622147E98008FF979 /* Testers */,
 				F6F220B62209DC190014A8A9 /* Tools */,
 				F61AF15721FF5DBC008547B6 /* Model */,
 				F61AF15821FF5DC5008547B6 /* Controller */,
@@ -223,6 +236,7 @@
 				F61AF15D21FF5DFB008547B6 /* Controller.cpp in Sources */,
 				F61AF15F21FF5EBD008547B6 /* Runner.cpp in Sources */,
 				F62C8627220C847B00C46583 /* FileController.cpp in Sources */,
+				F61A8F3922147EAB008FF979 /* LinearTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

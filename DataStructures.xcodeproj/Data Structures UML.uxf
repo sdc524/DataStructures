@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>6</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>246</x>
+      <x>0</x>
       <y>0</y>
-      <w>186</w>
-      <h>108</h>
+      <w>310</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Node&lt;Type&gt;
 --
@@ -27,10 +27,10 @@ bg=pink
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>228</x>
-      <y>132</y>
-      <w>294</w>
-      <h>126</h>
+      <x>70</x>
+      <y>230</y>
+      <w>490</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>LinearNode&lt;Type&gt;
 
@@ -51,10 +51,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>594</x>
-      <y>132</y>
-      <w>186</w>
-      <h>156</h>
+      <x>700</x>
+      <y>220</y>
+      <w>310</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>Array&lt;Type&gt;
 --
@@ -75,22 +75,22 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>516</x>
-      <y>162</y>
-      <w>90</w>
-      <h>24</h>
+      <x>550</x>
+      <y>270</y>
+      <w>170</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>306</y>
-      <w>198</w>
-      <h>144</h>
+      <x>90</x>
+      <y>510</y>
+      <w>330</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>/List&lt;Type&gt;/
 --
@@ -111,52 +111,111 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
-      <y>516</y>
-      <w>90</w>
-      <h>60</h>
+      <x>10</x>
+      <y>860</y>
+      <w>300</w>
+      <h>380</h>
     </coordinates>
     <panel_attributes>LinkedList&lt;Type&gt;
 --
+-front : LinearNode&lt;Type&gt; * 
+- end : LinearNode&lt;Type&gt; *
+--
++ LinkedList() : constructor
++ ~LinkedList() : destructor
 
---</panel_attributes>
+*Stack Methods*
++push(Type) : void
++pop() : Type
++peek() : Type
+
+*List Structure Methods*
++getFromIndex(int) : Type
++add(Type) : void
++addAtIndex(int, Type) : void
++remove(int) : Type
++contains(Type) : bool
+
+*List Accessors*
++ getSize(): int
++ getFront() : LinearNode&lt;Type&gt; *
++ getEnd() : LinearNode&lt;Type&gt; *</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>678</x>
-      <y>510</y>
-      <w>108</w>
-      <h>66</h>
+      <x>720</x>
+      <y>850</y>
+      <w>320</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>Stack&lt;type&gt;
 --
 
---</panel_attributes>
+--
++ Stack() : constructor
++ ~Stack() : destructor
+
+*Stack Methods*
++push(Type) : void
++pop() : Type
++peek() : Type
+
+*List Structure Methods*
++getFromIndex(int) : Type
++add(Type) : void
++addAtIndex(int, Type) : void
++remove(int) : Type
++contains(Type) : bool
+
+*List Accessors*
++ getSize(): int
++ getFront() : LinearNode&lt;Type&gt; *
++ getEnd() : LinearNode&lt;Type&gt; *</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>510</y>
-      <w>120</w>
-      <h>72</h>
+      <x>350</x>
+      <y>850</y>
+      <w>310</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>Queue&lt;Type&gt;
 --
+--
++ Queue() : constructor
++ ~Queue() : destructor
 
---</panel_attributes>
+*Queue Methods*
++push(Type) : void
++pop() : Type
++peek() : Type
+
+*List Structure Methods*
++getFromIndex(int) : Type
++add(Type) : void
++addAtIndex(int, Type) : void
++remove(int) : Type
++contains(Type) : bool
+
+*List Accessors*
++ getSize(): int
++ getFront() : LinearNode&lt;Type&gt; *
++ getEnd() : LinearNode&lt;Type&gt; *
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>444</y>
-      <w>306</w>
-      <h>78</h>
+      <x>230</x>
+      <y>740</y>
+      <w>510</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;490.0;110.0</additional_attributes>
@@ -164,10 +223,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>384</x>
-      <y>444</y>
-      <w>150</w>
-      <h>78</h>
+      <x>230</x>
+      <y>740</y>
+      <w>250</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;230.0;110.0</additional_attributes>
@@ -175,10 +234,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>444</y>
-      <w>66</w>
-      <h>84</h>
+      <x>150</x>
+      <y>740</y>
+      <w>110</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;120.0</additional_attributes>
@@ -186,24 +245,142 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>252</y>
-      <w>30</w>
-      <h>66</h>
+      <x>350</x>
+      <y>430</y>
+      <w>130</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>318</x>
-      <y>102</y>
-      <w>18</w>
-      <h>42</h>
+      <x>120</x>
+      <y>170</y>
+      <w>130</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>570</y>
+      <w>230</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>CrimeData
+--
+-Too Many
+--
++CrimeData() : constructor
++CrimeData(string): constructor
++getXXX() : various
++ == : bool
++ &lt; : ostream
++ &lt; : bool
++ &gt; : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>570</y>
+      <w>190</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Music
+--
+-Too Many
+--
++Music() : constructor
++Music(string): constructor
++getXXX() : various
++ == : bool
++ &lt; : ostream
++ &lt; : bool
++ &gt; : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1150</x>
+      <y>600</y>
+      <w>130</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>LinearTester
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1390</x>
+      <y>590</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>TreeTester
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>750</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>GraphTester 
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>960</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>AlgorithmTester
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1410</x>
+      <y>750</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>HashtableTester
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>600</y>
+      <w>610</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>590.0;10.0;440.0;160.0;150.0;160.0;10.0;250.0</additional_attributes>
   </element>
 </diagram>
