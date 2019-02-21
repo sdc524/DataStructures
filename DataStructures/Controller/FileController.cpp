@@ -109,13 +109,14 @@ vector<Music> FileController :: musicDataToVector(string filename)
 }
 LinkedList<Music> FileController :: musicDataToList(string filename)
 {
-    LinkedList<Music> musicList:
+    LinkedList<Music>musicList:
     
     string currentCSVLine;
     int rowCount = 0;
     
-    ifstream dataFle(filename);
+    ifstream dataFile(filename);
     
     //If the file exists at that path.
     if (dataFile.is_open())
-}
+        }
+

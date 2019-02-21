@@ -20,7 +20,9 @@ void LinearTester :: testVSTL()
     LinkedList<CrimeData> moreCrimes = fileController :: readDataToList(string filename)
     crimeTimerOOP.stopTimer();
     
+    cout << "This is the STL: " << endl;
     crimeTimerSTL.displayInformation();
+    cout << "This is the OOP Node: " << endl;
     crimeTimerOOP.displayInformation();
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() -crimeTimerSTL.getTimeinMicroseconds() << "microseconds" << endl;
     
