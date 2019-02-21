@@ -51,6 +51,7 @@
 		F68EBF3C2211D5880041776D /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F68EBF3D2211D5920041776D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		F6EF4C2F221EEF9E00113E68 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		F6EF4C30221EF82300113E68 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		F6F220B72209DC630014A8A9 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		F6F220B82209DC8F0014A8A9 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,8 +122,6 @@
 				F61AF15E21FF5EBC008547B6 /* Runner.cpp */,
 				F62C8625220C847B00C46583 /* FileController.cpp */,
 				F62C8626220C847B00C46583 /* FileController.hpp */,
-				F68EBF3C2211D5880041776D /* Queue.hpp */,
-				F68EBF3D2211D5920041776D /* Stack.hpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,9 +159,12 @@
 		F64E8C6B22020498000C29D7 /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				F68EBF3D2211D5920041776D /* Stack.hpp */,
+				F68EBF3C2211D5880041776D /* Queue.hpp */,
 				F64E8C6C2202058E000C29D7 /* Array.hpp */,
 				F62C8628220C84FD00C46583 /* List.hpp */,
 				F62C8629220C97B000C46583 /* LinkedList.hpp */,
+				F6EF4C30221EF82300113E68 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
