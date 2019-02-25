@@ -34,7 +34,7 @@ public:
     static Array<Music> musicDataToVector(string filename);
     static LinkedList<Music> musicDataToList(string filename);
     
-}
+};
 
 endif /* FileController_hpp */
 

@@ -23,8 +23,13 @@ using namespace std;
 class LinearTester
 {
 public:
-    void testVSTL();
+    void testVsSTL();
+    void testVsStack();
+    void testVsQueue();
+    void testVsDouble();
 };
+
+
 
 
 #endif /* LinearTester_hpp */

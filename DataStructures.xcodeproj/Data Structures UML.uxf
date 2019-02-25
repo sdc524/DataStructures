@@ -396,4 +396,35 @@ m1=0..n</panel_attributes>
 Aggregation </panel_attributes>
     <additional_attributes>10.0;110.0;310.0;10.0;590.0;100.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>10</y>
+      <w>240</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>DoubleNode&lt;Type&gt;
+--
+-nextNode : DN*
+-prevNode : DN*
+
+--
++ DN()
++ DN(Type)
++ DN(Type, BDN*, BDN*)
++ get/set</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>60</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
 </diagram>

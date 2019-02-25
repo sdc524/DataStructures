@@ -50,6 +50,7 @@
 		F64E8C6C2202058E000C29D7 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		F68EBF3C2211D5880041776D /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F68EBF3D2211D5920041776D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		F6D917A522244A79007D6094 /* DoubleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleList.hpp; sourceTree = "<group>"; };
 		F6EF4C2F221EEF9E00113E68 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		F6EF4C30221EF82300113E68 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		F6F220B72209DC630014A8A9 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
@@ -165,6 +166,7 @@
 				F62C8628220C84FD00C46583 /* List.hpp */,
 				F62C8629220C97B000C46583 /* LinkedList.hpp */,
 				F6EF4C30221EF82300113E68 /* CircularList.hpp */,
+				F6D917A522244A79007D6094 /* DoubleList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";

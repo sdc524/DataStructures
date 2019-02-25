@@ -9,8 +9,8 @@
 #ifndef Timer_hpp
 #define Timer_hpp
 
-#include <time.h>
-#include <assert.h>
+#include <timer.hpp>
+#include <assert.hpp>
 #include <iostream>
 
 class Timer
