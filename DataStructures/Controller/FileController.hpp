@@ -35,7 +35,6 @@ public:
     static LinkedList<Music> musicDataToList(string filename);
     
 };
-
 endif /* FileController_hpp */
 
 

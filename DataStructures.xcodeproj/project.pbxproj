@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F613DE252230329A008492EA /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		F61A8F3722147EAB008FF979 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		F61A8F3822147EAB008FF979 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		F61AF14D21FF5DAC008547B6 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F613DE242230326E008492EA /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+				F613DE252230329A008492EA /* Graph.hpp */,
+			);
+			path = NonLinear;
+			sourceTree = "<group>";
+		};
 		F61A8F3622147E98008FF979 /* Testers */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +118,7 @@
 		F61AF15721FF5DBC008547B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F613DE242230326E008492EA /* NonLinear */,
 				F64E8C6B22020498000C29D7 /* Linear */,
 				F64E8C682201F262000C29D7 /* Nodes */,
 			);

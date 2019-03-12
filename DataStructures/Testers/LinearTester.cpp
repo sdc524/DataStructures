@@ -82,7 +82,7 @@ void LinearTester :: testVsSTL()
     
     void LinearTester :: testVsStack()
     {
-        
+        Timer crimeTimerSTL, crimeTimerOOP, musicSTL, musicOOP;
     }
     
     
