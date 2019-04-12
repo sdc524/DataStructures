@@ -52,6 +52,7 @@
 		F64E8C6C2202058E000C29D7 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		F66A3D50223FDB030082E16D /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		F66A3D51223FDB030082E16D /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
+		F67557712260D97100BB93F7 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		F68EBF3C2211D5880041776D /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F68EBF3D2211D5920041776D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		F6D917A522244A79007D6094 /* DoubleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleList.hpp; sourceTree = "<group>"; };
@@ -125,7 +126,7 @@
 			children = (
 				F613DE242230326E008492EA /* NonLinear */,
 				F64E8C6B22020498000C29D7 /* Linear */,
-				F64E8C682201F262000C29D7 /* Nodes */,
+				F67557702260D92600BB93F7 /* New Group */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +169,7 @@
 				F64E8C692201F294000C29D7 /* Node.hpp */,
 				F64E8C6A2201F941000C29D7 /* LinearNode.hpp */,
 				F6EF4C2F221EEF9E00113E68 /* DoubleNode.hpp */,
+				F67557712260D97100BB93F7 /* BinaryTreeNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -184,6 +186,14 @@
 				F6D917A522244A79007D6094 /* DoubleList.hpp */,
 			);
 			path = Linear;
+			sourceTree = "<group>";
+		};
+		F67557702260D92600BB93F7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F64E8C682201F262000C29D7 /* Nodes */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		F6F220B62209DC190014A8A9 /* Tools */ = {
