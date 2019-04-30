@@ -30,8 +30,8 @@ public:
     void setLeftNode(BinaryTreeNode<Type> * left);
     
     BinaryTreeNode<Type> * getRootNode();
-     BinaryTreeNode<Type> * getLeftNode();
-     BinaryTreeNode<Type> * getRightNode();
+     BinaryTreeNode<Type> * getLeftChild();
+     BinaryTreeNode<Type> * getRightChild();
 };
 
 //constructors
