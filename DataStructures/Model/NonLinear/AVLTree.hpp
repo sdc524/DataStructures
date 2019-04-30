@@ -39,6 +39,65 @@ public:
 This template either inserts or removes the left or right node
  
  */
+
+template <class Type>
+int AVLTree<Type>  :: heightDifference(BinaryTreeNode<Type> * node)
+{
+    int balance;
+    int leftHeight = this->calculateHeight(node->getLeftChild());
+    int rightHeight = this->calculateHeight(node->getRightChild());
+    balance = leftHeight = rightHeight;
+    return balance;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: leftRotation (BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changedNode;
+    changedNocce = parent->getLeftChild();
+    
+    parent->setLeftChild(changedNode->getRightChild());
+    
+    changedNode->setRightChild(parent);
+    
+    return changedNode;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: rightRotation (BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changedNode;
+    changedNocce = parent->getRightChild();
+    
+    parent->setRightChild(changedNode->getRightChild());
+    
+    changedNode->setLeftChild(parent);
+    
+    return changedNode;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: rightLeftRotation(BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changedNode;
+    changedNode = parent->getRightChild();
+    
+    parent->setLeftChild(rightRotation(changedNode));
+    
+    return rightRotation(parent);
+}
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: leftRightRotation(BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changedNode;
+    changedNode = parent->getLeftChild();
+    
+    parent->setLeftChild(rightRotation(changedNode));
+    
+    return leftRotation(parent);
+}
+
 template <class Type>
 BinaryTreeNode<Type> * AVLTree<Type> :: removeNode(BinaryTreeNode<Type> * parent, Type inserted)
 {
