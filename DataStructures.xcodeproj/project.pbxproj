@@ -54,6 +54,7 @@
 		F66A3D51223FDB030082E16D /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		F67557712260D97100BB93F7 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
 		F67557722260E45900BB93F7 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
+		F689E7D222788C59002D350F /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		F68EBF3C2211D5880041776D /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		F68EBF3D2211D5920041776D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		F6D917A522244A79007D6094 /* DoubleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleList.hpp; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			children = (
 				F613DE252230329A008492EA /* Graph.hpp */,
 				F67557722260E45900BB93F7 /* BinarySearchTree.hpp */,
+				F689E7D222788C59002D350F /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
